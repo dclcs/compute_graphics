@@ -20,10 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{EDC384AB-7093-4488-9FB7-E37A184B2AAD}</ProjectGuid>
-    <RootNamespace>ex1</RootNamespace>
+    <ProjectGuid>{3420AA12-6C6B-4E03-8292-DD3699D3740C}</ProjectGuid>
+    <RootNamespace>ex2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
-    <ProjectName>ex1</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -71,7 +70,6 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <ExecutablePath>$(ExecutablePath)</ExecutablePath>
     <IncludePath>C:\Users\dcl_1\Desktop\cg-lib\Include;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Users\dcl_1\Desktop\cg-lib\Libs;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
